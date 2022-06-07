@@ -10,7 +10,7 @@ You can start an experiment using the profiles I have set up on CloudLab.
 [Multi-Site](https://www.cloudlab.us/show-profile.php?uuid=100e630b-e1d4-11ec-aacb-e4434b2381fc)
 
 It's important to know that changing the link speed for your nodes is done during the initialization and should be done during this step.
-You can achieve this by going into the view source option when you click on a node set up link above. You should see something in this source file like this:
+For single-site clusters you can achieve this by going into the view source option when you click on a node set up link above. You should see something in this source file like this:
 ```
 # Creating a link between the nodes.
 link = request.LAN("lan")
