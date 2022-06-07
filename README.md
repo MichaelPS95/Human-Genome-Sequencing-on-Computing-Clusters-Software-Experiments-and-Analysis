@@ -1,10 +1,10 @@
 # REU
 Walk through of setting up software experiments
 
-#SET UP
+# SET UP
 You can start an experiment using the profiles I have set up on CloudLab.
-[Single-Site]https://www.cloudlab.us/show-profile.php?uuid=85de3eb8-e1d9-11ec-aacb-e4434b2381fc
-[Multi-Site]https://www.cloudlab.us/show-profile.php?uuid=100e630b-e1d4-11ec-aacb-e4434b2381fc
+[Single-Site](https://www.cloudlab.us/show-profile.php?uuid=85de3eb8-e1d9-11ec-aacb-e4434b2381fc)
+[Multi-Site](https://www.cloudlab.us/show-profile.php?uuid=100e630b-e1d4-11ec-aacb-e4434b2381fc)
 
 It's important to know that changing the link speed for your nodes is done during the initialization and should be done during this step.
 You can achieve this by going into the view source option when you click on a node set up link above. You should see something in this source file like this:
@@ -16,8 +16,7 @@ link = request.LAN("lan")
 link.bandwidth = 1000000
 ```
 If you do not see a field where bandwidth is specified, you can create your own variable and initialize it. **NOTE** this is only for the single site profile, as you can go into advanced settings for multi-site and specify link speed via the dropdown menu seen below.
-![alt text][logo]
-[logo]:https://gyazo.com/533a5591d2ce7304011099ad0a45204a
+![alt text](https://gyazo.com/533a5591d2ce7304011099ad0a45204a)
 
 
 # REFERENCES
