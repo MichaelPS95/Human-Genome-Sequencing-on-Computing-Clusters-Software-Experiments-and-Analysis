@@ -42,7 +42,7 @@ You can use ctrl+a followed by ctrl+d to detach from the screen while the set up
 
 Once the ./cluster-configure.sh script is done running, you need to exit the ssh session before moving on to running experiments.
 
-To set up the reference data in the /mydata directory on all the nodes run
+To set up the reference data in the /mydata directory on all the nodes run:
 ```
 screen -S setup
 ${HOME}/EVA/scripts/copy_files.sh 5
@@ -54,6 +54,14 @@ cd ; git clone https://github.com/raopr/AVAH.git
 cp ${HOME}/AVAH/misc/sampleIDs-vlarge.txt /proj/eva-public-PG0/${USER}-sampleIDs-vlarge.txt
 cp ${HOME}/AVAH/misc/sampleURLs-vlarge.txt /proj/eva-public-PG0/${USER}-sampleURLs-vlarge.txt
 ```
+
+This is for BQSR/Indel realignment (this step is for the sequencing results and not for the sequencing itsself).
+```${HOME}/EVA/scripts/convert_known_snps_indels_to_adam.sh 5```
+
+To see all the options for running experiments you can run the command:
+```${HOME}/AVAH/scripts/run_variant_analysis_at_scale.sh -h```
+
+
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
