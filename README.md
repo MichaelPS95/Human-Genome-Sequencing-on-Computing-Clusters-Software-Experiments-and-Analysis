@@ -37,9 +37,10 @@ cd ${HOME}/EVA/cluster_config
 ```
 You can use ctrl+a followed by ctrl+d to exit while the set up is being done in the screen command. To reattach to that screen, you can use the ```screen -r``` command.
 
+
 **IMPORTANT:**
 
-Once the ./cluster-configure.sh script is done running, you need to exit the ssh session before moving on to running any experiments.
+Once the ./cluster-configure.sh script is done running, you need to exit the ssh session before moving on to running experiments.
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
