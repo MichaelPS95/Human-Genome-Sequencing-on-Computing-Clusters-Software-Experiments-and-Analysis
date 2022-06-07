@@ -25,6 +25,20 @@ If you do not see a field where bandwidth is specified, you can create your own 
 **NOTE:** This is only for the single site profile, as you can go into advanced settings for multi-site and specify link speed via the dropdown menu seen below.
 ![alt text](https://github.com/MichaelPS95/REU/blob/main/dropdown.png)
 
+Connect to your cluster on vm0 and run the following command to download the code repository:
+```
+git clone https://github.com/MU-Data-Science/EVA.git
+```
+To set up the tools used for sequencing, run the following (assuming five node cluster).
+```
+screen -S setup
+cd ${HOME}/EVA/cluster_config
+./cluster-configure.sh 5 spark3
+```
+You can use ctrl+a followed by ctrl+d to exit while the set up is being done in the screen command. To reattach to that screen, you can use the ```screen -r``` command.
+
+**IMPORTANT:**
+Once the ./cluster-configure.sh script is done running, you need to exit the ssh session before moving on to running any experiments.
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
