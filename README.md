@@ -59,11 +59,25 @@ This is for BQSR/Indel realignment (this step is for the sequencing results and 
 
 ```${HOME}/EVA/scripts/convert_known_snps_indels_to_adam.sh 5```
 
+To change the allocated cores and RAM for each node, you can follow the steps outlined [here](https://github.com/MU-Data-Science/EVA/blob/master/YARN-README.md).
+
 To see all the options for running experiments you can run the command:
 
 ```${HOME}/AVAH/scripts/run_variant_analysis_at_scale.sh -h```
 
+Finally, running an experiment. This is again assuming five node clusters and use of the subgroup comprised of 16 of the 98 sequences from the vlarge files. The REU-IDs.txt and REU-URLs.txt should be present in the directories below assuming the experiment was started with the profiles from above, but both text files are included in this repository if they are not present in the directories for some reason.
+ 
+If sequences need to be downloaded you can run the following commands:
+```
+hdfs dfs -rm -r /tmp/logs; hdfs dfs -rm -r /spark-events/*; hdfs dfs -rm /*.fastq.gz
+${HOME}/AVAH/scripts/run_variant_analysis_at_scale.sh -i /proj/eva-public-PG0/REU-IDs.txt -d /proj/eva-public-PG0/REU-URLs.txt -n 5 -b 2 -p 4 -P H -B
+```
 
+If the sequences have already been correctly downloaded you can start and experiment using the following:
+```
+hdfs dfs -rm -r /tmp/logs; hdfs dfs -rm -r /spark-events/*; hdfs dfs -rm /*.fastq.gz
+${HOME}/AVAH/scripts/run_variant_analysis_at_scale.sh -i /proj/eva-public-PG0/REU-IDs.txt -d NONE -n 5 -b 2 -p 4 -P H -B
+```
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
