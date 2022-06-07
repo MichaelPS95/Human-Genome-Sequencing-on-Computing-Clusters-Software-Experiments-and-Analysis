@@ -18,7 +18,8 @@ link = request.LAN("lan")
 #Must Provide a bandwidth. BW is in Kbps
 link.bandwidth = 1000000
 ```
-If you do not see a field where bandwidth is specified, you can create your own variable and initialize it. **NOTE** this is only for the single site profile, as you can go into advanced settings for multi-site and specify link speed via the dropdown menu seen below.
+If you do not see a field where bandwidth is specified, you can create your own variable and initialize it. 
+**NOTE:** This is only for the single site profile, as you can go into advanced settings for multi-site and specify link speed via the dropdown menu seen below.
 ![alt text](https://github.com/MichaelPS95/REU/blob/main/dropdown.png)
 
 
