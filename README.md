@@ -55,10 +55,12 @@ cp ${HOME}/AVAH/misc/sampleIDs-vlarge.txt /proj/eva-public-PG0/${USER}-sampleIDs
 cp ${HOME}/AVAH/misc/sampleURLs-vlarge.txt /proj/eva-public-PG0/${USER}-sampleURLs-vlarge.txt
 ```
 
-This is for BQSR/Indel realignment (this step is for the sequencing results and not for the sequencing itsself).
+This is for BQSR/Indel realignment (this step is for the sequencing results and not for the sequencing itself).
+
 ```${HOME}/EVA/scripts/convert_known_snps_indels_to_adam.sh 5```
 
 To see all the options for running experiments you can run the command:
+
 ```${HOME}/AVAH/scripts/run_variant_analysis_at_scale.sh -h```
 
 
