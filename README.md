@@ -88,7 +88,7 @@ To verify that all the sequencing was successful you should see:
 ![alt text](https://github.com/MichaelPS95/REU/blob/main/finished%20sequencing.png)
 
 
-Just above the finished sequencing messages for each genome where it says "took #####.##### s", this is the number of seconds the experiment takes, though it is preferred to take the time first listed in the top of the log file and the last time listed at the bottom of the log file and take the difference. You should find these two values are within a few seconds of each other.
+Just above the finished sequencing messages for each genome where it says "took #####.##### s", this is the number of seconds the sequencing takes.
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
