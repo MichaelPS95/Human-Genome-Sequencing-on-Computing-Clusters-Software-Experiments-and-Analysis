@@ -1,4 +1,4 @@
-# Human Genome Sequencing Software Experiments and Analysis
+# Human Genome Sequencing on Computing Clusters Software Experiments and Analysis
 
 # Purpose
 
