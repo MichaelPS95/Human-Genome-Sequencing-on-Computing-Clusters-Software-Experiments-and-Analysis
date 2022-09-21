@@ -1,3 +1,9 @@
+#Human Genome Sequencing Software Experiments and Analysis
+
+#Purpose
+
+The purpose of the software experiments was to gather real world data and to perform analysis on the data. We generated a Locating Array to dictate the experiment settings for each software experiment run, and performed analysis on the four parameter system upon completion of the experiments. The analysis is aimed at finding the individual parameters and two-way interactions between parameters that had the most significant impact on the overall system (in this case the runtime of the software).
+
 # Experiment Setup
 Walk through of setting up software experiments assuming you already have a CloudLab account.
 
@@ -92,3 +98,4 @@ Just above the finished sequencing messages for each genome where it says "took 
 
 # REFERENCES
 https://github.com/MU-Data-Science/EVA
+https://github.com/sseidel16/v4-la-tools
