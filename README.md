@@ -2,10 +2,43 @@
 
 The purpose of the software experiments was to gather real world data and to perform analysis on the data. We generated a Locating Array to dictate the experiment settings for each software experiment run, and performed analysis on the four parameter system upon completion of the experiments. The analysis is aimed at finding the individual parameters and two-way interactions between parameters that had the most significant impact on the overall system (in this case the runtime of the software).
 
+# Background
+
+The Locating Array used was generated using code developed by Stephen Seidel (repository linked in references), and shown below.
+The 16 and 4 at the top of the file below v2.0 represent the number of configurations and the number of parameters measured respectively. Below that line the 2 3 3 3 specify the number of values each parameter can take on, in this case we are using integers that map to specific settings in the configuration of the cluster computers: Ram, CPU cores, Cluster Configurations, and Network Speed. Below the column of zeroes are the settings for each of the sixteen experiments.
+```
+v2.0
+16	4		
+2	3	3	3
+0			
+0			
+0			
+0			
+0
+1	2	2	2
+0	1	1	1
+0	0	0	0
+1	1	0	2
+1	2	1	0
+1	0	2	1
+0	1	2	0
+0	2	0	2
+1	0	1	1
+1	1	1	0
+0	0	2	2
+0	0	0	1
+1	2	0	0
+0	1	1	2
+1	1	2	1
+0	2	0	1
+```
+
 # Experiment Setup
+
 Walk through of setting up software experiments assuming you already have a CloudLab account.
 
 # SET UP 
+
 You can start an experiment using the profiles I have set up on CloudLab. Please make sure you are using hardware compatible with the software set up process, the list of hardware supported is found [here](https://github.com/MU-Data-Science/EVA/blob/master/Supported_Machines.txt).
 
 **PROFILES**
@@ -19,6 +52,7 @@ It's important to know that changing the link speed for your nodes is done durin
 For single-site clusters you can achieve this by going into the view source option when you click on a node set up link above. You should see something in this source file like this:
 ```
 # Creating a link between the nodes.
+
 link = request.LAN("lan")
 
 #Must Provide a bandwidth. BW is in Kbps
@@ -95,5 +129,6 @@ To verify that all the sequencing was successful you should see:
 Just above the finished sequencing messages for each genome where it says "took #####.##### s", this is the number of seconds the sequencing takes.
 
 # REFERENCES
+
 https://github.com/MU-Data-Science/EVA
 https://github.com/sseidel16/v4-la-tools
