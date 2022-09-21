@@ -1,4 +1,4 @@
-# REU
+# Experiment Setup
 Walk through of setting up software experiments assuming you already have a CloudLab account.
 
 # SET UP 
