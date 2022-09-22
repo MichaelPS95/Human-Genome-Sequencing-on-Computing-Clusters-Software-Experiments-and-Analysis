@@ -1,0 +1,428 @@
+Seed:	1663122185
+16, 4
+Adding t-way interactions
+Went over 57 columns
+Finished constructing CS Matrix
+File: "RE/REU/Response_REU.txt"
+Loaded responses
+Response range: 10.7291 to 11.3909
+Creating Models...
+Top Model (0.944832):
+Model with 2 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.0907 | INTERCEPT
+       0.944832 |        0.398202 | RAM=392
+Occurrences: 1
+R-Squared: 0.944832
+Adjusted R-Squared: 0.940891
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Top Model (0.972503):
+Model with 3 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1185 | INTERCEPT
+        1.82978 |        0.388928 | RAM=392
+       0.115225 |       0.0741879 | Cluster_Configuration=Multi_Site_Heterogeneous
+Occurrences: 2
+R-Squared: 0.972503
+Adjusted R-Squared: 0.968273
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Top Model (0.997731):
+Model with 4 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2063 | INTERCEPT
+        2.77461 |        0.414155 | RAM=392
+       0.154225 |       0.0903331 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |         0.10898 | Cores=40 & RAM=784
+Occurrences: 3
+R-Squared: 0.997731
+Adjusted R-Squared: 0.997163
+Duplicate Model!!! Merged!
+Duplicate Model!!! Merged!
+Top Model (0.998787):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1785 | INTERCEPT
+        2.77461 |        0.408553 | RAM=392
+       0.154225 |       0.0969728 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.105868 | Cores=40 & RAM=784
+     0.00317037 |      -0.0319535 | Network_Speed_Kbps=10000000 & Cores=80
+Occurrences: 3
+R-Squared: 0.998787
+Adjusted R-Squared: 0.998347
+
+Final Models Ranking: 
+Model 1 (0.998787):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1785 | INTERCEPT
+        2.77461 |        0.408553 | RAM=392
+       0.154225 |       0.0969728 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.105868 | Cores=40 & RAM=784
+     0.00317037 |      -0.0319535 | Network_Speed_Kbps=10000000 & Cores=80
+Occurrences: 3
+R-Squared: 0.998787
+Adjusted R-Squared: 0.998347
+
+Model 2 (0.998787):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1785 | INTERCEPT
+        2.77461 |       -0.408553 | RAM=784
+       0.154225 |       0.0969728 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.105868 | Cores=40 & RAM=784
+     0.00317037 |      -0.0319535 | Network_Speed_Kbps=10000000 & Cores=80
+Occurrences: 3
+R-Squared: 0.998787
+Adjusted R-Squared: 0.998347
+
+Model 3 (0.998471):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1908 | INTERCEPT
+        2.77461 |        0.421295 | RAM=392
+       0.154225 |        0.083907 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.106838 | Cores=40 & RAM=784
+     0.00222212 |      -0.0183261 | Cluster_Configuration=Single_Site_Heterogeneous & RAM=392
+Occurrences: 3
+R-Squared: 0.998471
+Adjusted R-Squared: 0.997916
+
+Model 4 (0.998471):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1908 | INTERCEPT
+        2.77461 |       -0.421295 | RAM=784
+       0.154225 |        0.083907 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.106838 | Cores=40 & RAM=784
+     0.00222212 |      -0.0183261 | Cluster_Configuration=Single_Site_Heterogeneous & RAM=392
+Occurrences: 3
+R-Squared: 0.998471
+Adjusted R-Squared: 0.997916
+
+Model 5 (0.998298):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1952 | INTERCEPT
+        2.77461 |        0.413108 | RAM=392
+       0.154225 |       0.0975435 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108398 | Cores=40 & RAM=784
+     0.00170338 |      -0.0179099 | Cluster_Configuration=Multi_Site_Heterogeneous & Cores=80
+Occurrences: 3
+R-Squared: 0.998298
+Adjusted R-Squared: 0.99768
+
+Model 6 (0.998298):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1952 | INTERCEPT
+        2.77461 |       -0.413108 | RAM=784
+       0.154225 |       0.0975435 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108398 | Cores=40 & RAM=784
+     0.00170338 |      -0.0179099 | Cluster_Configuration=Multi_Site_Heterogeneous & Cores=80
+Occurrences: 3
+R-Squared: 0.998298
+Adjusted R-Squared: 0.99768
+
+Model 7 (0.998241):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1957 | INTERCEPT
+        2.77461 |        0.413163 | RAM=392
+       0.154225 |       0.0971696 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108429 | Cores=40 & RAM=784
+     0.00153136 |       -0.016981 | Cluster_Configuration=Multi_Site_Heterogeneous & Network_Speed_Kbps=10000000
+Occurrences: 3
+R-Squared: 0.998241
+Adjusted R-Squared: 0.997602
+
+Model 8 (0.998241):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1957 | INTERCEPT
+        2.77461 |       -0.413163 | RAM=784
+       0.154225 |       0.0971696 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108429 | Cores=40 & RAM=784
+     0.00153136 |       -0.016981 | Cluster_Configuration=Multi_Site_Heterogeneous & Network_Speed_Kbps=10000000
+Occurrences: 3
+R-Squared: 0.998241
+Adjusted R-Squared: 0.997602
+
+Model 9 (0.998228):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1989 | INTERCEPT
+        2.77461 |        0.411476 | RAM=392
+     0.00149095 |      -0.0105795 | Cores=80
+       0.154225 |       0.0911568 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.103965 | Cores=40 & RAM=784
+Occurrences: 3
+R-Squared: 0.998228
+Adjusted R-Squared: 0.997583
+
+Model 10 (0.998228):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1989 | INTERCEPT
+        2.77461 |       -0.411476 | RAM=784
+     0.00149095 |      -0.0105795 | Cores=80
+       0.154225 |       0.0911568 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.103965 | Cores=40 & RAM=784
+Occurrences: 3
+R-Squared: 0.998228
+Adjusted R-Squared: 0.997583
+
+Model 11 (0.998196):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2164 | INTERCEPT
+        2.77461 |        0.415102 | RAM=392
+       0.154225 |       0.0838083 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.109506 | Cores=40 & RAM=784
+     0.00139493 |       0.0162068 | Cluster_Configuration=Multi_Site_Heterogeneous & Cores=60
+Occurrences: 3
+R-Squared: 0.998196
+Adjusted R-Squared: 0.99754
+
+Model 12 (0.998196):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2164 | INTERCEPT
+        2.77461 |       -0.415102 | RAM=784
+       0.154225 |       0.0838083 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.109506 | Cores=40 & RAM=784
+     0.00139493 |       0.0162068 | Cluster_Configuration=Multi_Site_Heterogeneous & Cores=60
+Occurrences: 3
+R-Squared: 0.998196
+Adjusted R-Squared: 0.99754
+
+Model 13 (0.998162):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |          11.224 | INTERCEPT
+        2.77461 |         0.41173 | RAM=392
+       0.154225 |       0.0925156 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.109707 | Cores=40 & RAM=784
+     0.00129515 |       0.0186728 | Cluster_Configuration=Single_Site_Homogeneous & Cores=40
+Occurrences: 3
+R-Squared: 0.998162
+Adjusted R-Squared: 0.997494
+
+Model 14 (0.998162):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |          11.224 | INTERCEPT
+        2.77461 |        -0.41173 | RAM=784
+       0.154225 |       0.0925156 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.109707 | Cores=40 & RAM=784
+     0.00129515 |       0.0186728 | Cluster_Configuration=Single_Site_Homogeneous & Cores=40
+Occurrences: 3
+R-Squared: 0.998162
+Adjusted R-Squared: 0.997494
+
+Model 15 (0.99814):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1891 | INTERCEPT
+        2.77461 |        0.416517 | RAM=392
+       0.154225 |       0.0882074 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108271 | Cores=40 & RAM=784
+     0.00122845 |      -0.0181862 | Cluster_Configuration=Single_Site_Heterogeneous & Cores=80
+Occurrences: 3
+R-Squared: 0.99814
+Adjusted R-Squared: 0.997464
+
+Model 16 (0.99814):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.1891 | INTERCEPT
+        2.77461 |       -0.416517 | RAM=784
+       0.154225 |       0.0882074 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.108271 | Cores=40 & RAM=784
+     0.00122845 |      -0.0181862 | Cluster_Configuration=Single_Site_Heterogeneous & Cores=80
+Occurrences: 3
+R-Squared: 0.99814
+Adjusted R-Squared: 0.997464
+
+Model 17 (0.998104):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2186 | INTERCEPT
+        2.77461 |        0.410583 | RAM=392
+       0.154225 |       0.0935479 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110051 | Cores=40 & RAM=784
+     0.00111955 |       0.0137524 | Network_Speed_Kbps=1000000 & Cores=40
+Occurrences: 3
+R-Squared: 0.998104
+Adjusted R-Squared: 0.997414
+
+Model 18 (0.998104):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2186 | INTERCEPT
+        2.77461 |       -0.410583 | RAM=784
+       0.154225 |       0.0935479 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110051 | Cores=40 & RAM=784
+     0.00111955 |       0.0137524 | Network_Speed_Kbps=1000000 & Cores=40
+Occurrences: 3
+R-Squared: 0.998104
+Adjusted R-Squared: 0.997414
+
+Model 19 (0.998088):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2184 | INTERCEPT
+        2.77461 |        0.410659 | RAM=392
+       0.154225 |       0.0934796 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110029 | Cores=40 & RAM=784
+     0.00107253 |       0.0134603 | Cluster_Configuration=Single_Site_Homogeneous & RAM=392
+Occurrences: 3
+R-Squared: 0.998088
+Adjusted R-Squared: 0.997393
+
+Model 20 (0.998088):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2184 | INTERCEPT
+        2.77461 |       -0.410659 | RAM=784
+       0.154225 |       0.0934796 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110029 | Cores=40 & RAM=784
+     0.00107253 |       0.0134603 | Cluster_Configuration=Single_Site_Homogeneous & RAM=392
+Occurrences: 3
+R-Squared: 0.998088
+Adjusted R-Squared: 0.997393
+
+Model 21 (0.998087):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2225 | INTERCEPT
+        2.77461 |         0.41741 | RAM=392
+       0.154225 |       0.0864753 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110788 | Cores=40 & RAM=784
+      0.0010702 |       0.0185653 | Network_Speed_Kbps=1000000 & Cores=60
+Occurrences: 3
+R-Squared: 0.998087
+Adjusted R-Squared: 0.997392
+
+Model 22 (0.998087):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2225 | INTERCEPT
+        2.77461 |        -0.41741 | RAM=784
+       0.154225 |       0.0864753 | Cluster_Configuration=Multi_Site_Heterogeneous
+      0.0643547 |        0.110788 | Cores=40 & RAM=784
+      0.0010702 |       0.0185653 | Network_Speed_Kbps=1000000 & Cores=60
+Occurrences: 3
+R-Squared: 0.998087
+Adjusted R-Squared: 0.997392
+
+Model 23 (0.998057):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2025 | INTERCEPT
+        5.54923 |        0.410079 | RAM=392
+      0.0356809 |       0.0108231 | Cores=40
+       0.303751 |       0.0907545 | Cluster_Configuration=Multi_Site_Heterogeneous
+       0.099685 |       0.0982971 | Cores=40 & RAM=784
+Occurrences: 6
+R-Squared: 0.998057
+Adjusted R-Squared: 0.99735
+
+Model 24 (0.998057):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2133 | INTERCEPT
+        2.77461 |        0.410079 | RAM=392
+       0.154225 |       0.0907548 | Cluster_Configuration=Multi_Site_Heterogeneous
+    0.000979006 |       0.0108227 | Cores=40 & RAM=392
+      0.0643547 |        0.109121 | Cores=40 & RAM=784
+Occurrences: 3
+R-Squared: 0.998057
+Adjusted R-Squared: 0.99735
+
+Model 25 (0.998057):
+Model with 5 terms
+     R^2 Contr. |     Coefficient | Term
+--------------- | --------------- | ---------------
+              0 |         11.2025 | INTERCEPT
+        5.54923 |       -0.410079 | RAM=784
+      0.0356809 |       0.0108231 | Cores=40
+       0.303751 |       0.0907545 | Cluster_Configuration=Multi_Site_Heterogeneous
+       0.099685 |       0.0982971 | Cores=40 & RAM=784
+Occurrences: 6
+R-Squared: 0.998057
+Adjusted R-Squared: 0.99735
+
+Occurrence Counts
+     R^2 Contr. |           Count |       Magnitude |         AvgMag. | Factor Combination
+--------------- | --------------- | --------------- | --------------- | --------------------
+        74.9145 |              55 |         13.0932 |        0.238059 | RAM
+      0.0743438 |              44 |         3.01354 |       0.0684895 | Cores
+        4.15466 |              39 |         2.52132 |       0.0646492 | Cluster_Configuration
+              0 |               8 |        0.162505 |       0.0203131 | Network_Speed_Kbps
+
+     R^2 Contr. |           Count |       Magnitude |         AvgMag. | Factor Combination
+--------------- | --------------- | --------------- | --------------- | --------------------
+        1.68051 |              26 |         2.70024 |        0.103855 | Cores & RAM
+      0.0112438 |               8 |        0.141951 |       0.0177439 | Cluster_Configuration & Cores
+      0.0107203 |               6 |        0.128542 |       0.0214237 | Network_Speed_Kbps & Cores
+     0.00658929 |               4 |       0.0635728 |       0.0158932 | Cluster_Configuration & RAM
+     0.00306273 |               2 |        0.033962 |        0.016981 | Cluster_Configuration & Network_Speed_Kbps
+
+
+Other Stuff:
+Columns in CSMatrix: 57
