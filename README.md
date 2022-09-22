@@ -37,8 +37,6 @@ v2.0
 
 Walk through of setting up software experiments assuming you already have a CloudLab account.
 
-# SET UP 
-
 You can start an experiment using the profiles I have set up on CloudLab. Please make sure you are using hardware compatible with the software set up process, the list of hardware supported is found [here](https://github.com/MU-Data-Science/EVA/blob/master/Supported_Machines.txt).
 
 **PROFILES**
