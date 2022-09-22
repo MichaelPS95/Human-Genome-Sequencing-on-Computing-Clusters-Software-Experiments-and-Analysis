@@ -130,10 +130,30 @@ Just above the finished sequencing messages for each genome where it says "took 
 
 # Analysis of Experiment Results
 
+Using software by Yasmeen Akhtar (website listed under references) I was able to feed in the results of the experiments to her program for analysis. The analysis software works by taking in a parameter to specify the number of important factors/interactions you want to search for as well as parameters to specify how to set up the Breadth-First Search model used to do the analysis. The three factors used in the BFS model specify number of fitted models to return, number of children of each node in the tree, and tree height. In the case of this analysis, I chose five important factors with 25 models as well as 25 leaf nodes per node. The results of the analysis suggest that the most impactful parameter to runtime is amount of RAM allocated, followed by cluster configuration, with the interaction between cores and RAM being the third most significant. The drop off in coefficients for other factors and combination of factors suggest those factors and interactions don't carry significant weight in the runtime of the sequencing. The results of the analysis are shown below, and the full analysis with each model can be seen [here]([https://github.com/MU-Data-Science/EVA/blob/master/YARN-README.md](https://github.com/MichaelPS95/Human-Genome-Sequencing-on-Computing-Clusters-Software-Experiments-and-Analysis/blob/main/analysis_1_5_25_25.txt).
 
+```
+Occurrence Counts
+     R^2 Contr. |           Count |       Magnitude |         AvgMag. | Factor Combination
+--------------- | --------------- | --------------- | --------------- | --------------------
+        74.9145 |              55 |         13.0932 |        0.238059 | RAM
+      0.0743438 |              44 |         3.01354 |       0.0684895 | Cores
+        4.15466 |              39 |         2.52132 |       0.0646492 | Cluster_Configuration
+              0 |               8 |        0.162505 |       0.0203131 | Network_Speed_Kbps
+
+     R^2 Contr. |           Count |       Magnitude |         AvgMag. | Factor Combination
+--------------- | --------------- | --------------- | --------------- | --------------------
+        1.68051 |              26 |         2.70024 |        0.103855 | Cores & RAM
+      0.0112438 |               8 |        0.141951 |       0.0177439 | Cluster_Configuration & Cores
+      0.0107203 |               6 |        0.128542 |       0.0214237 | Network_Speed_Kbps & Cores
+     0.00658929 |               4 |       0.0635728 |       0.0158932 | Cluster_Configuration & RAM
+     0.00306273 |               2 |        0.033962 |        0.016981 | Cluster_Configuration & Network_Speed_Kbps
+```
 
 # REFERENCES
 
 https://github.com/MU-Data-Science/EVA
 
 https://github.com/sseidel16/v4-la-tools
+
+https://sites.google.com/view/akhtar2019/home?authuser=0
